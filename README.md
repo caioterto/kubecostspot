@@ -31,13 +31,13 @@ aws ec2 create-spot-datafeed-subscription --bucket myawsbucket [--prefix myprefi
 
 Devemos ter uma saída como o exemplo abaixo:
 
-{
-    "SpotDatafeedSubscription": {
-        "OwnerId": "111122223333",
-        "Prefix": "myprefix",
-        "Bucket": "myawsbucket",
-        "State": "Active"
-    }
+{ <br>
+    "SpotDatafeedSubscription": {<br>
+        "OwnerId": "111122223333",<br>
+        "Prefix": "myprefix",<br>
+        "Bucket": "myawsbucket",<br>
+        "State": "Active"<br>
+    }<br>
 }
 
 O datafeed demora cerca de 1 hora para ser criado em seu bucket.
