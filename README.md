@@ -48,14 +48,14 @@ OBS: Guarde os valores da saída, utilizaremos esses parametros no Kubecost.
 
 Nas configurações de Instancias SPOTs do Kubecost, preencha os seguintes parametros:
 
-Node label for spot instances: Nome da label que identifica o nó Spot.
-Node label value for spot instances: Valor da label que identifica o nó Spot.
-Spot data bucket name: Nome do bucket criado para o datafeed.
-Spot data prefix: Nome do prefix criado para o datafeed.
-Spot data region: Região onde o bucket foi criado.
-AWS Account ID: Uma Account ID que possua permissão para acessar esse Bucket.
-Service key name: Nome do Key Pair.
-Service key secret: Service Key.
+Node label for spot instances: Nome da label que identifica o nó Spot.<br>
+Node label value for spot instances: Valor da label que identifica o nó Spot.<br>
+Spot data bucket name: Nome do bucket criado para o datafeed.<br>
+Spot data prefix: Nome do prefix criado para o datafeed.<br>
+Spot data region: Região onde o bucket foi criado.<br>
+AWS Account ID: Uma Account ID que possua permissão para acessar esse Bucket.<br>
+Service key name: Nome do Key Pair.<br>
+Service key secret: Service Key.<br>
 
 Pronto!
 
